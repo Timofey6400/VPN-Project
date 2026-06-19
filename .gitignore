@@ -1,0 +1,18 @@
+# Rust
+/target/
+Cargo.lock
+
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+.vscode/
+
+xray.exe
+config.json
+
+# OS
+Thumbs.db
+.DS_Store

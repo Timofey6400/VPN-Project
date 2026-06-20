@@ -12,7 +12,11 @@ __pycache__/
 
 xray.exe
 config.json
+geoip.dat
+geosite.dat
 
 # OS
 Thumbs.db
 .DS_Store
+
+notes/

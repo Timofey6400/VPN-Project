@@ -20,7 +20,7 @@ class VpnApp(ctk.CTk):
     def start_vpn(self):
         self.btn.configure(state="disabled", text="Ядро работает")
         # Передаем ссылку на функцию-коллбэк в Rust
-        vpn_core.start_core(self.on_speed_update)
+        vpn_core.start_core()
 
 if __name__ == "__main__":
     app = VpnApp()
